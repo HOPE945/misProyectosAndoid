@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poducto"
+        android:gravity="center"
+        android:layout_marginTop="75sp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtNombreP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:text="Ingrese el nombre del producto: "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edtNombreP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNombreP"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="15sp"
+        android:hint="Escriba el nombre aquí"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/txtValorP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingrese el valor del producto: "
+        android:gravity="center"
+        android:layout_below="@id/edtNombreP"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edtValorP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtValorP"
+        android:hint="Escriba el valor del producto aquí"
+        android:layout_marginLeft="10sp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txtCantidadP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtValorP"
+        android:text="Cantidad de producto"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edtCantidadP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCantidadP"
+        android:hint="Ingrese la cantidad"
+        android:layout_marginLeft="10sp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCantidadP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:text="..."
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtResultado"
+        android:layout_margin="35sp"
+        android:text="Total"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--vistas son los boton, campos de texto, texto -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:gravity="center"
+        android:text="Contador de Pulsos"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        />
+    <!-- por si necesito comentar-->
+    <TextView
+        android:id="@id/txtContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="100sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btnMas"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtContador"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75sp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:onClick="onClick"
+        android:text="+"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnMenos"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnMas"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        android:layout_below="@+id/btnMenos"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:onClick="onClick"
+        />
+
+
+</RelativeLayout>

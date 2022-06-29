@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvTruck"
+        android:layout_width="287dp"
+        android:layout_height="250dp"
+        android:layout_margin="15sp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="10sp"
+        android:src="@drawable/ic_truc" />
+    <Button
+        android:id="@+id/btnTipov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgvTruck"
+        android:text="¿Que tipo de vehículo es?"
+        />
+
+    <Button
+        android:id="@+id/btnTamav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTipov"
+        android:layout_margin="15sp"
+        android:text="¿De que tamaño es el vehículo?"
+        />
+
+
+</RelativeLayout>
