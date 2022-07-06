@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/imgUsuario"
+    android:layout_width="200sp"
+    android:layout_height="200sp"
+    android:layout_margin="100sp"
+    android:layout_centerHorizontal="true"
+    android:src="@drawable/usuario"
+    />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgUsuario"
+        android:hint="Ingrese su nombre"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtNombre"
+        android:hint="Ingrese su edad"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:id="@+id/btnValidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtEdad"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="45sp"
+        android:layout_marginTop="45sp"
+        android:layout_marginEnd="45sp"
+        android:layout_marginBottom="45sp"
+        android:backgroundTint="#04D481"
+        android:text="      Validar    "
+        android:textColor="@color/white"
+        app:cornerRadius="15sp" />
+
+
+</RelativeLayout>

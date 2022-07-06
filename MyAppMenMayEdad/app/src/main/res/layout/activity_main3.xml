@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+
+    <Button
+        android:id="@+id/btnAtras2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="30sp"
+        android:backgroundTint="#04D481"
+        app:cornerRadius="15sp"
+        android:text="      Atras      "
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgCoche"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="150sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/coche"
+        />
+    <TextView
+        android:id="@+id/txtVsabes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgCoche"
+        android:text="¿Sabes la respuesta?"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15sp"
+        />
+
+    <TextView
+        android:id="@+id/txtVpregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtVsabes"
+        android:text="¿Cual es la raíz cuadrada de 64?"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="10sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edtRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375sp"
+       android:layout_centerHorizontal="true"
+        android:hint="Escribe la respuesta"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txtVmensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRespuesta"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnVerA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550sp"
+        android:layout_marginEnd="30sp"
+        android:backgroundTint="#04D481"
+        app:cornerRadius="15sp"
+        android:text="       Ver       "
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>

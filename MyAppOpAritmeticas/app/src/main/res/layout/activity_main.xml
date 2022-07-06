@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
 <TextView
+    android:id="@+id/txtTitulo"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Binvenido ¿que operación desea realizar?"
@@ -14,6 +16,94 @@
     android:gravity="center"
     android:layout_marginTop="55sp"
     />
+
+    <EditText
+        android:id="@+id/edtPrimerN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitulo"
+        android:hint="Ingrese el primer número"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_marginLeft="15sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSegundoN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPrimerN"
+        android:hint="Ingrese el segundo número"
+        android:layout_marginLeft="15sp"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      Sumar     "
+        android:layout_marginTop="225sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="15sp"
+        android:onClick="onClick"
+
+        />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/btnSumar"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="225sp"
+        android:text="       Restar      "
+        android:textSize="15sp"
+
+        />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="280sp"
+        android:text=" Multiplicar"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/btnMultiplicar"
+        android:text="       Dividir      "
+        android:layout_marginTop="280sp"
+        android:layout_marginLeft="15sp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btnNumMayor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Numero Mayor "
+        android:layout_marginTop="330sp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnNumMayor"
+        android:text="..."
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        />
 
 
 </RelativeLayout>

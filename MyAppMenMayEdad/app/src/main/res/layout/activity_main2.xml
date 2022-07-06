@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:id="@+id/btnAtras1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="30sp"
+        android:backgroundTint="#04D481"
+        app:cornerRadius="15sp"
+        android:text="     Atras       "
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/imgBiberon"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="140sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/biberon"
+        />
+
+    <TextView
+        android:id="@+id/txtPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBiberon"
+        android:layout_marginTop="25sp"
+        android:text="¿Sabes la respuesta?"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/txtSuma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPregunta"
+        android:text=" 4 + 6 = "
+        android:layout_marginTop="15sp"
+        android:layout_marginRight="240sp"
+        android:layout_marginLeft="20sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/edtRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="@+id/txtSuma"
+        android:layout_marginTop="355sp"
+        android:layout_marginLeft="120sp"
+        android:hint="Escribe la respuesta aquÍ "
+        android:inputType="number"
+        />
+    <TextView
+        android:id="@+id/txtVmensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtRespuesta"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550sp"
+        android:layout_marginEnd="30sp"
+        android:backgroundTint="#04D481"
+        app:cornerRadius="15sp"
+        android:text="       Ver       "
+        android:textColor="@color/white"
+
+        />
+
+
+</RelativeLayout>
