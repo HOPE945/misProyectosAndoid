@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAQuetzal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poemas al Quetzal"
+        android:layout_marginTop="45sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="POEMA AL QUETZAL"
+                android:textStyle="bold"
+                android:textColor="#356d97"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quetz1"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="10sp"
+                android:textStyle="normal"
+                />
+            <ImageView
+                android:layout_width="400sp"
+                android:layout_height="400sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/quetz1"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANTATA AL QUETZAL"
+                android:textStyle="bold"
+                android:layout_marginTop="15sp"
+                android:textColor="#356d97"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quetz2"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:justificationMode="inter_word"
+                android:textStyle="normal"
+                />
+            <ImageView
+                android:layout_width="400sp"
+                android:layout_height="400sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/quetza2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMADO QUETZAL"
+                android:textStyle="bold"
+                android:textColor="#356d97"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quetz3"
+                android:textSize="15sp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="10sp"
+                android:justificationMode="inter_word"
+                android:textStyle="normal"
+                />
+
+            <ImageView
+                android:layout_width="400sp"
+                android:layout_height="250sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/quetz3"/>
+            <Button
+                android:id="@+id/btnQuetzalR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGRESAR"
+                android:backgroundTint="#356d97"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="30sp"
+
+                />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

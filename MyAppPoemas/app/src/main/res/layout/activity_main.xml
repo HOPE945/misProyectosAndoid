@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Poemas patrios"
+       android:layout_marginTop="30sp"
+       android:layout_marginLeft="72sp"
+       android:layout_marginRight="30sp"
+       android:textStyle="bold"
+       android:textSize="30sp"
+       android:textColor="@color/black"
+       />
+
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="250dp"
+       android:src="@drawable/guateredo"
+       android:layout_marginTop="40sp"
+       android:layout_gravity="center"
+       />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Seleccione una categoria"
+       android:layout_marginTop="5sp"
+       android:layout_marginLeft="70sp"
+       android:layout_marginRight="30sp"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:textColor="@color/black"
+       />
+
+   <Button
+       android:id="@+id/btnBandera"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="15sp"
+       android:text="Bandera"
+       android:backgroundTint="#356d97"/>
+
+   <Button
+       android:id="@+id/btnMonja"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="15sp"
+       android:text="Monja blanca"
+       android:backgroundTint="#356d97"/>
+
+   <Button
+       android:id="@+id/btnQuetzal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="15sp"
+       android:text="Quetzal"
+       android:backgroundTint="#356d97"/>
+
+</LinearLayout>
