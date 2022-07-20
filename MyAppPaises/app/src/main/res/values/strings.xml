@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MyAppPaises</string>
+
+    <string name="iguatemala">
+       GUATEMALA
+    </string>
+
+    <string name="ielSalvador">
+        EL SALVADOR
+    </string>
+
+    <string name="ihonduras">
+        HONDURAS
+    </string>
+
+    <string name="ibelize">
+        BELICE
+    </string>
+
+    <string name="ibrazil">
+        BRAZIL
+    </string>
+
+    <string name="icolombia">
+        COLOMBIA
+    </string>
+
+    <string name="iperu">
+        PERÚ
+    </string>
+
+    <string name="ipanama">
+        PANAMÁ
+    </string>
+
+    <string name="imexico">
+        MÉXICO
+    </string>
+
+    <string name="inicaragua">
+        NICARAGUA
+    </string>
+
+
+    <string name="poblaguatemala">
+       17,357,886 millones de habitantes
+    </string>
+
+    <string name="poblaelSalvador">
+        16,518,000 millones de habitantes
+    </string>
+
+    <string name="poblahonduras">
+        10,117,000 millones de habitantes
+    </string>
+
+    <string name="poblabelize">
+        430,000  habitantes
+    </string>
+
+    <string name="poblabrazil">
+        213,993,441 millones de habitantes
+    </string>
+
+    <string name="poblacolombia">
+        51,049,000 millones de habitantes
+    </string>
+
+    <string name="poblaperu">
+        33,359,416 millones de habitantes
+    </string>
+
+    <string name="poblapanama">
+        4,381,583 millones de habitantes
+    </string>
+
+    <string name="poblamexico">
+        130,262,220 millones de habitantes
+    </string>
+
+    <string name="poblanicaragua">
+        6,702,379 millones de habitantes
+    </string>
+
+
+
+</resources>
