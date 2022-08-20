@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAAdquirir"
+    android:orientation="vertical"
+    android:background="#56626f">
+
+    <ImageView
+        android:id="@+id/imgAdquirir"
+        android:layout_width="270sp"
+        android:layout_height="270sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/txtViewTituloAdquirir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1sp"
+        android:textColor="#FFD5CDCD"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewPrecAdquirir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+
+        <TextView
+            android:id="@+id/txtViewMonedaAdquirir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+
+        <TextView
+            android:id="@+id/txtViewPrecioAdquirir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario de compra"
+        android:textSize="33sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="1sp"
+        android:textColor="#F1D3D3"
+        />
+
+    <EditText
+        android:id="@+id/edtNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su nombre"
+        android:inputType="text"
+        android:textColor="#FFD5CDCD"/>
+
+    <EditText
+        android:id="@+id/edtApellidoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su apellido"
+        android:inputType="text"
+        android:textColor="#FFD5CDCD"/>
+
+    <EditText
+        android:id="@+id/edtNITCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su N.I.T. sin guion"
+        android:inputType="number"
+        android:textColor="#FFD5CDCD"/>
+
+    <Button
+        android:id="@+id/btnCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ccc"
+        android:backgroundTint="#336B87"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1sp"
+        android:layout_gravity="center"
+
+        />
+
+    <Button
+        android:id="@+id/btnCancelarCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ccc"
+        android:backgroundTint="#956060"
+        android:layout_alignParentRight="true"
+        android:layout_margin="1sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

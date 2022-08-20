@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#56626f">
+
+    <TextView
+        android:id="@+id/txtTituloObra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="25sp"
+        android:layout_margin="20sp"
+        android:layout_gravity="center"
+        android:textColor="#FFD5CDCD"
+        />
+
+    <ImageView
+        android:id="@+id/imgObra"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtViewPre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+
+        <TextView
+            android:id="@+id/txtViewMonedaObra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+
+        <TextView
+            android:id="@+id/txtViewPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="220sp"
+            android:layout_marginTop="10sp"
+            android:textColor="#FFD5CDCD"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtViewDescripObra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripcion OBRA"
+        android:layout_marginTop="5sp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:textColor="#FFD5CDCD"
+        />
+
+    <Button
+        android:id="@+id/btnAdquirirObra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adquirir"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ccc"
+        android:backgroundTint="#336B87"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyAppArteModerno</string>
+
+    <string name="obrasGotico">
+        GóticaNOM
+    </string>
+
+    <string name="obraAbstracto">
+        AbstractoNom
+    </string>
+
+    <string name="obraBarroco">
+        BarrocoNom
+    </string>
+
+</resources>

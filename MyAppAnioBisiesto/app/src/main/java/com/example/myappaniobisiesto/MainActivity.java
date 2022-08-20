@@ -45,13 +45,12 @@ public class MainActivity extends AppCompatActivity {
             //e
             int datoanio = Integer.parseInt(editTextAnio.getText().toString());
             if(datoanio % 4 == 0 && (datoanio % 100 != 0 || datoanio % 400 == 0)){
-                Toast.makeText(this, "Sí es año bisiesto", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Sí es año bisiesto", Toast.LENGTH_LONG).show();
             }
             else{
-                Toast.makeText(this, "No es año bisiesto", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "No es año bisiesto", Toast.LENGTH_LONG).show();
 
             }
-            //t
 
             Intent intent = new Intent(this, MAReceptorAB.class);
 

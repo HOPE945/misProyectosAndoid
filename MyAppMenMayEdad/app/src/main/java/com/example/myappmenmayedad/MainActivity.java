@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     if (Integer.parseInt(edtEdad.getText().toString()) < 18){
                         this.validarFormulario();
                         startActivity(intentMenorDeEdad);
-                    }else{
+                     }else{
                         startActivity(intentMayorDeEdad);
                     }
                 }

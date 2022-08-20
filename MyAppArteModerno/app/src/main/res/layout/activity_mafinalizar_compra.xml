@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAFinalizarCompra"
+    android:orientation="vertical"
+    android:background="#56626f">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="¡Gracias por su compra!"
+        android:textColor="#FFD5CDCD"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre pintura: "
+        android:textSize="25sp"
+        android:textColor="#FFD5CDCD"
+        android:layout_marginLeft="10sp"
+        />
+        <TextView
+        android:id="@+id/txtReceptorNombPinturaComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="#A7B0DF"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Ingresado: "
+        android:textSize="25sp"
+        android:textColor="#FFD5CDCD"
+        android:layout_marginLeft="10sp"
+        />
+
+    <TextView
+        android:id="@+id/txtReceptorNombCompradorComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="#A7B0DF"
+        android:layout_marginLeft="10sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido Ingresado: "
+        android:textSize="25sp"
+        android:textColor="#FFD5CDCD"
+        android:layout_marginLeft="10sp"
+        />
+    <TextView
+        android:id="@+id/txtReceptorApellidoCompradorComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="#A7B0DF"
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N.I.T. Ingresado "
+        android:textSize="25sp"
+        android:textColor="#FFD5CDCD"
+        android:layout_marginLeft="10sp"
+        />
+    <TextView
+        android:id="@+id/txtReceptorNITCompradorComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="20sp"
+        android:textColor="#A7B0DF"
+        android:layout_marginLeft="10sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total a pagar con impuesto: "
+        android:textSize="25sp"
+        android:textColor="#FFD5CDCD"
+        android:layout_marginLeft="10sp"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        >
+
+        <TextView
+            android:id="@+id/txtReceptorMoneda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textSize="20sp"
+            android:layout_marginLeft="50sp"
+            android:textColor="#A7B0DF"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtReceptorTotalAPagarConImpuesto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80sp"
+            android:text="..."
+            android:textSize="20sp"
+            android:textColor="#A7B0DF"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnFinalizarYRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finalizar y regresar"
+        android:layout_margin="30sp"
+        android:textColor="#ECE2E5"
+        android:backgroundTint="#988282"
+        />
+
+
+</LinearLayout>
