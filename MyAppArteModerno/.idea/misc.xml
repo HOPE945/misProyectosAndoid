@@ -12,7 +12,7 @@
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_madet_fact.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_madetalle_compra.xml" value="0.1" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_mafactura.xml" value="0.1" />
-        <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_mafinalizar_compra.xml" value="0.32972972972972975" />
+        <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_mafinalizar_compra.xml" value="0.1" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_maresumen_compra.xml" value="0.18181818181818182" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/activity_matienda_arte.xml" value="0.1" />
@@ -24,6 +24,8 @@
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/lista_personalizada_compra.xml" value="0.1" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/lista_personalizada_interna.xml" value="0.1" />
         <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/lista_personalizada_secundaria.xml" value="0.1" />
+        <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/layout/toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/peace/AndroidStudioProjects/MyAppArteModerno/app/src/main/res/menu/menu_item.xml" value="0.1" />
       </map>
     </option>
   </component>

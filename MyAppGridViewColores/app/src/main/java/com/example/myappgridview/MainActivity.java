@@ -1,17 +1,24 @@
 package com.example.myappgridview;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private GridView gridView;
+    private Toolbar toolbar;
 
 
     @Override
@@ -19,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         gridView = findViewById(R.id.gridViewColores);
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
          //recordarme que ete Array Ad
         AdapterGidColores adapterGrid = new AdapterGidColores(this, R.layout.grid_personalizado, this.imagenesColores(), this.nombreColores());
         gridView.setAdapter(adapterGrid);
@@ -29,6 +39,36 @@ public class MainActivity extends AppCompatActivity {
                 traslado(position);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(@NonNull Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.item1:
+                Toast.makeText(this, "Colores pastel", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item2:
+                Toast.makeText(this, "Colores pastel", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item3:
+                Toast.makeText(this, "Colores neutros", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item4:
+                Toast.makeText(this, "Colores primarios", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.item5:
+                Toast.makeText(this, "Colores secundarios", Toast.LENGTH_SHORT).show();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     private ArrayList<String> nombreColores(){

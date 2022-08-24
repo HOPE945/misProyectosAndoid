@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">MyAppListView</string>
+    <string name="app_name">Vocales</string>
+    <string name="vocalA">
+        Hola soy A
+    </string>
+    <string name="vocalE">
+        Hola soy E
+    </string>
+    <string name="vocalI">
+        Hola soy I
+    </string>
+    <string name="vocal0">
+        Hola soy O
+    </string>
+    <string name="vocalU">
+        Hola soy U
+    </string>
 </resources>
