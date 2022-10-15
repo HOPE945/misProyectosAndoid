@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F5F2CC"
+    >
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRUD PRODUCTOS"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="25sp"
+        android:gravity="center"
+        />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/lo"
+        android:layout_gravity="center"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnInsertarMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:backgroundTint="#43D3E8"
+        android:text="Insertar Producto"
+        android:textSize="15sp"
+        app:icon="@drawable/ic_baseline_add_circle_24"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

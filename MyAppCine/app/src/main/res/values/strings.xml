@@ -1,3 +1,88 @@
 <resources>
-    <string name="app_name">MyAppCine</string>
+    <string name="app_name"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nombre_dp">Dead Pool 2 </string>
+    <string name="duracion_dp">Duracion 118 minutos </string>
+    <integer name="precio_dp">41</integer>
+    <string name="sinpsis_dp">Wade Wilson, interpretado por Ryan Reynolds, mejor conocido como Deadpool que es su nombre de batalla e identidad.
+    antiheroica, esta de regreso con Deadpool 2 en esta ocación su misión será salvar a un chico llamado Roselle, de las manos de un poderoso rival llamado Cable Josh Brolin.
+    En aras de dar cumplimiento a su tarea el antiheroe formará un grupo al cual pondra el nombre de X-Force. Secuela de la exitosa película. </string>
+    <string name="dirac_dp">Direccion: David Leitch\n Reparto: Ryan Reynolds, Josh Brolin, Zazie Betz, Morena Baccarin, Julian Dennison. </string>
+    <string name="punt_dp">Su puntuacion es de 6,7 de 10 Estrellas. \n Recaudación: El monto recaudado es de USD$300 millones. </string>
+
+
+    <string name="nombre_pg">La Purga por Siempre</string>
+    <string name="duracion_pg">Duracion 103 minutos</string>
+    <integer name="precio_pg">55</integer>
+    <string name="sinpsis_pg">Para los miembros de un movimiento cladestino, ya no es suficiente una noche anual de anarquia y asesinatos, asi que deciden devolver a Estados Unidos el caos y las masacres sin fin, donde nadie volverá a estar a salvo jamás. </string>
+    <string name="dirac_pg">Direccion: Edward Gout\n Reparto: Ana de la Reguera, Tenoch Herta, Josh Lucas, Will Patterson, Cassidy Freeman, Leven Rambin, Alejandro Edda, Susie Abromeit, Sammi Rotibi Anthony Molinari.  </string>
+    <string name="punt_pg"> Su puntuación es de 4,7 de 10 Estrellas. Recaudación: El monto recaudado es de USD$77 millones. </string>
+
+
+    <string name="nombre_ns">The Punisher</string>
+    <string name="duracion_ns">Duración 124 minutos</string>
+    <integer name="precio_ns">50</integer>
+    <string name="sinpsis_ns">Frank Castle, interpretado por Thomas Jane, un agente del FBI con un historial intachable, decide un dia abandonar una profesion tan peligrosa para poder tener una vida familiar normal. Pero precisamente entonces, su vida se hace añicos al cumplirse el peor de sus temores, pues su familia es asesinada como venganza por su último trabajo. </string>
+    <string name="dirac_ns">Direccion: Johathan Hensleigh \n Reparto: Thomas Helsleigh, Michael France, Rebecca Romijin, Laura Elena Harring, Samantha Mathis, Roy Scheider, Will Patton, Ben Foster, John Pinette Mark Collie y Kevin Nash. </string>
+    <string name="punt_ns">Su puntuación es de 5,1 de 10 Estrellas. Recaudación: El monto recaudado es de USD$54.7 millones. </string>
+
+
+    <string name="nombre_mobi">Morbius</string>
+    <string name="duracion_mobi">Duración 109 minutos</string>
+    <integer name="precio_mobi">55</integer>
+    <string name="sinpsis_mobi">El Doctor Michael Morbius, interpretado por Jared Leto, es un bioquímico que sufre una extraña enfermedad en la sangres. Al intentar curarse y dar una respuesta a su trastorno de infecta sin darse cuenta con una forma de vampirismo. Tras la cura, Mchael se siente más vivo que nunca y adquiere varios dones como fuerza y velocidad. </string>
+    <string name="dirac_mobi"> Dirección: Daniel Espinoza \n Reparto: Jared Leto, Matt Smith, Joseph Esson, Adria Arjona, Jared Harris, Tyrese Gibson, Corey Jonhson, Michael Keaton, Bently Kalu, Charlie Shotwell, Archie Renaux, Tom Forbes y Clara Rosager. </string>
+    <string name="punt_mobi">Su puntuación es de 4,6 de 10 Estrellas. Recaudación: El monto recaudado es de USD$163.9 millones. </string>
+
+
+    <string name="nombre_sw">Sword Art Online Progressive</string>
+    <string name="duracion_sw">Duración 1 hora 37 minutos</string>
+    <integer name="precio_sw">65</integer>
+    <string name="sinpsis_sw">Un mes después de que el juego mortal de Kayaba Akihito empezara, el número de muertes sigue subiendo, 2.000 jugadores ya han perdido la vida en el difícil mundo VRMMO de Sword Art Online. El día en el que se plantea la estretegia para luchar contra el jefe final de la primera planta, Kirito, un jugador solitario que asegura que juega solo para hacerse mas fuerte, conoce auna jugadora, Asuna Yuuki, que es muy poderosa. </string>
+    <string name="dirac_sw">Dirección: Ayako Kawano \n Reparto Animación: Yoshitsugu Matsouoka, Bryce Papendbrokk, Haruka Tomatsu.  </string>
+    <string name="punt_sw">Su puntuación es de 6,8 de 10 Estrellas. Recaudación: El monto recaudado es de USD$14.03 millones. </string>
+
+
+    <string name="nombre_sc">Suicide Squad</string>
+    <string name="duracion_sc">Duración 123 minutos</string>
+    <integer name="precio_sc">43</integer>
+    <string name="sinpsis_sc">Un grupo de super villanos se encuentran encerrados en Belle Reve, una prisión de alta seguridad con la tasa de mortalidad más alta de Estados Unidos. Para slir de allí harán cualquier cosa, incluso unirse al grupo Task Force X, dedicado a llevar a cabo misiones suicidas bajo las órdenes de Amanda Walker. </string>
+    <string name="dirac_sc">Direccion: James Gunn \n Reparto: Idris Elba, Margot Robbie, Joel Kinnaman, Viola Davis, Daniela Melchior, Dvid Dastmalchin, John Cena, Alice Braga, Peter Capldi, Jai Courtney, Joaquín Cosío, Nathan Fillion, Maling Ng.  </string>
+    <string name="punt_sc">Su puntuación es de 6,3 de 10 Estrellas. Recaudación: El monto recaudado es de USD$168.7 millones. </string>
+
+
+    <string name="nombre_mh">My Hero Academia: Mision Mundial</string>
+    <string name="duracion_mh">Duración 104 minutos</string>
+    <integer name="precio_mh">58</integer>
+    <string name="sinpsis_mh">Doku es perseguido por la policía acusado de asesinato en masa, mientras que el resto de super héroes han de enfrentarse a un incidente que afeta a todo el mundo. Es la tercera pelicula de la serie anime My Hero Academia. </string>
+    <string name="dirac_mh">Direccion: Kenji Nagasaki \n Reparto: Animación. </string>
+    <string name="punt_mh">Su puntuación es de 6,3 de 10 Estrellas. Recaudación: El monto recaudado es de USD$47.03 millones. </string>
+
+
+    <string name="nombre_dr">Doctor Strange en el Multiverso de la Locura</string>
+    <string name="duracion_dr">Duración 126 minutos</string>
+    <integer name="precio_dr">49</integer>
+    <string name="sinpsis_dr">Viaja a lo desconocido con el Doctor Strange, quien con la ayuda de tando antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas de ultiverso para enfrentarse a un nuevo y misterios adversario. </string>
+    <string name="dirac_dr">Dirección: Sam Raimi \n Reparto: Benedict Cumbertbarch, Elizabeth Olsen, Xochitl Gomez, Chiwetel Ejiotel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Sheila Atim, Adam Hugil, Ako Mitchell, momo Yeung, Daniel Swain y Topo Wresniwiro. </string>
+    <string name="punt_dr">Su puntuación es de 6,5 de 10 Estrellas. Recaudación: El monto recaudado es de USD$955.8 millones. </string>
+
+
+    <string name="nombre_no">Death Note </string>
+    <string name="duracion_no">Duración 101 minutos</string>
+    <integer name="precio_no">61</integer>
+    <string name="sinpsis_no">Un dia cuando Light, termina las clases encuentra un cuaderno negro tendido en el suelo llamado Death Note, es un cuaderno sobrenatural que es capaz de matar persons si se escriben los nombres en él y si el portador visualiza mentalmente la cara de quien quiere asesinar. Es una adaptación de la famosa serie y manga Deat Note. </string>
+    <string name="dirac_no">Direccion: Adam Wingard \n Reparto: Nat Wolf, Lakeith Sanfield, Margaret Qalley, Shea Whigham, Wiliem Dafoe, Jason Liles, Paul Nakaushi, Jack Ettinger, Michaell Shamus Willes, Jessica McLeod, Chirs Britton, Matthew Kevin Anderson y David S. </string>
+    <string name="punt_no"> Su puntuación es de 3,5 de 10 Estrellas. Recaudación: El monto recaudado es de USD$31.3 millones.</string>
+
+
+    <string name="nombre_ph">The Black Phone</string>
+    <string name="duracion_ph">Duración 102 minutos</string>
+    <integer name="precio_ph">35</integer>
+    <string name="sinpsis_ph">En una ciudad de Colorado, en los años 70, un enmascarado secuesta a Finney Shaw, un chi tímido e inteligente de 13 años y le encierra en un sótano insonorizado donde de nada sirven sus gritos. Cuando un telefono roto y sin conexión empieza a sonar, Finney descubre que a través de él puede or voces de las anteriores víctimas, las cuales están decididas a impedir que Finney acabe igual que ellas. </string>
+    <string name="dirac_ph">Direccion: Scott Derrickson \n Reparto: Ethan Hawke, Mason Thames, Jeremy Davies, James Ransone, Madeleine MacGraw, E. Roger Mitchell, Andrew Farmer, Kellan Rhude, Rocco Poveromo, Troy Rudeseal, Mishael Banks Repeta, Miguel Cazarez Mora y Rebecca Clarke. </string>
+    <string name="punt_ph">Su puntuación es de 6,4 de 10 Estrellas. Recaudación: El monto recaudado es de USD$161 millones. </string>
+
+
 </resources>
